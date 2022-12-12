@@ -86,9 +86,13 @@ h1 {
 }
 
 button {
-    font-size: 0.5em;
-    padding: 0.5em;
-    border-radius: 1em;
+    font-size: 0.6em;
+padding: 0.5em;
+border-radius: 37%;
+background: white;
+font-weight: bold;
+width: 18%;
+height: 12%;
 
 
 }
@@ -115,35 +119,45 @@ button {
     background-color: grey;
     position: absolute;
 }
+.jug{
+    width: 70vw;
+    height: auto ;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .container2 {
     margin: 0;
     background-color: aliceblue;
-    width: 60vw;
+    width:60vw;
     display: flex;
     justify-content: center;
 }
 
 .container3 {
-    width: 60vw;
+    width: 50vw;
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: aliceblue;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 1%;
 
 }
 
 .img1 {
     width: 100%;
-    height: 100%;
+    margin: 2%;
 }
 
 .load {
     
         background-color: black;
         color: white;
-        font-size: 0.5em;
+        font-size: 0.7em;
         display: flex;
         align-items: center;
         justify-content: center;
